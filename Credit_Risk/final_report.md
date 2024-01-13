@@ -12,18 +12,24 @@ The dataset provided information on various financial features of loan applicant
   - High-Risk Loans (Class 1)
   
   Stages of Machine Learning Process:
+    
     Data Loading and Exploration:
     - Checked basic information about the dataset, including variable types and missing values.
+    
     Data Preprocessing:
     - Handled any missing data and converted categorical variables into numerical format.
+    
     Data Splitting:
     - Split the dataset into training and testing sets for model training and evaluation.
+    
     Original Model Training:
     - Trained a logistic regression model using the original (unbalanced) data.
     - Evaluated the model's performance using accuracy, precision, recall, and F1-score.
+    
     Resampling:
     - Utilized the RandomOverSampler from imbalanced-learn to address class imbalance.
     - Resampled the training data to achieve a balanced distribution of classes.
+    
     Model Training with Resampled Data:
     - Trained a logistic regression model using the resampled training data.
     - Evaluated the model's performance on the test set.
